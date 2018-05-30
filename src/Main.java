@@ -1,9 +1,11 @@
 
+import loops.Loops;
+
+
 public class Main {
 
-  
     public static void main(String[] args) {
-        
+
 //        Car myCar = new Car();
 //        myCar.printAttributes();
 //        myCar.changeLicense("efg123");
@@ -22,26 +24,59 @@ public class Main {
 //audi.printAttributes();
 //audi.travel(30);
 //audi.printAttributes();
+//Car noviAuto = new Car("Novi auto", 100, 3, 4, 1);
+//noviAuto.printAttributes();
+//noviAuto.getIn();
+//noviAuto.getIn();
+//noviAuto.getIn();
+//noviAuto.getIn();
+//noviAuto.getIn();
+//noviAuto.getIn();
+//noviAuto.printAttributes();
+//
+//noviAuto.getOut();
+//noviAuto.getOut();
+//noviAuto.getOut();
+//noviAuto.getOut();
+//noviAuto.getOut();
+//noviAuto.getOut();
+//noviAuto.printAttributes();
+//Car noviAuto = new Car();
+////noviAuto.printAttributes();
+//
+//noviAuto.getIn(3);
+//noviAuto.printAttributes();
+//noviAuto.getIn(1);
+//noviAuto.printAttributes();
+//
+//noviAuto.getOut(3);
+//noviAuto.printAttributes();
+//noviAuto.getOut(5);
+//noviAuto.printAttributes();
+//        int x = 5;
+//        while (x > -4) {
+//            System.out.println(x);
+//            x--;//x = x -1;
+//
+//        }
+//        do {
+//            System.out.println(x);
+//            x--;
+//        } while (x > 0);
 
-Car noviAuto = new Car("Novi auto", 100, 3, 4, 1);
-noviAuto.printAttributes();
+//        for (int i = 7; i < 15; i++) {
+//            System.out.println(i);
+//        }
+        
+//Loops loop1 = new Loops();
+//loop1.testWhileLoop();
 
-noviAuto.getIn();
-noviAuto.getIn();
-noviAuto.getIn();
-noviAuto.getIn();
-noviAuto.getIn();
-noviAuto.getIn();
-noviAuto.printAttributes();
-
-noviAuto.getOut();
-noviAuto.getOut();
-noviAuto.getOut();
-noviAuto.getOut();
-noviAuto.getOut();
-noviAuto.getOut();
-noviAuto.printAttributes();
+//Loops.testWhileLoop();
+//Loops.testForLoop();
+//Loops.testDoubleForLoop();
+//
+Loops.printCoordinates();
 
     }
-    
+
 }
