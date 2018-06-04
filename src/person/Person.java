@@ -44,6 +44,7 @@ public class Person {
         this.jmbg = jmbg;
     }
 
+   
     public void showData() {
         System.out.println(this.getName());
         System.out.println(this.getSurname());

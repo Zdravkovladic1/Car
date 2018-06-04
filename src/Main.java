@@ -2,6 +2,7 @@
 import loops.Loops;
 import person.Person;
 import person.Student;
+import person.Teacher;
 
 
 public class Main {
@@ -79,24 +80,27 @@ public class Main {
 //
 //Loops.printCoordinates();
 
-Person osoba = new Person();
-
-
-osoba.setName("Vladimir");
-osoba.setSurname("Zdravkovic");
-
-osoba.showData();
-
-
-        Student studentPetar = new Student("Petar","Petrovic", "393993939393");
-        
-        studentPetar.showData();
-        
-        Student studentMarko = new Student("Marko", "Markovic", "2348289842", "oas123", 2);
-        studentMarko.showData();
+//Person osoba = new Person();
+//
+//
+//osoba.setName("Vladimir");
+//osoba.setSurname("Zdravkovic");
+//
+//osoba.showData();
+//
+//
+//        Student studentPetar = new Student("Petar","Petrovic", "393993939393");
+//        
+//        studentPetar.showData();
+//        
+//        Student studentMarko = new Student("Marko", "Markovic", "2348289842", "oas123", 2);
+//        studentMarko.showData();
 //        System.out.println(osoba.getName());
 //        System.out.println(osoba.getSurname());
 //        System.out.println(osoba.getJmbg());
+
+Teacher teacherFilip = new Teacher("Filip", "Filipovic", "383838383838", "Matematika", 3, "Musko");
+teacherFilip.showData();
     }
 
 }
