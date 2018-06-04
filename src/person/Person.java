@@ -10,21 +10,21 @@ public class Person {
         this.name = "Ime";
         this.surname = "Prezime";
         this.jmbg = "1234567891234";
-        
-    } 
 
-    public Person(String Name, String Surname, String Jmbg) {
-
-        this.name = Name;
-        this.surname = Surname;
-        this.jmbg = Jmbg;
     }
 
-    public String getName(){
+    public Person(String name, String surname, String jmbg) {
+
+        this.name = name;
+        this.surname = surname;
+        this.jmbg = jmbg;
+    }
+
+    public String getName() {
         return this.name;
     }
-    
-    public void setName(String newName){
+
+    public void setName(String newName) {
         this.name = newName;
     }
 
@@ -35,7 +35,6 @@ public class Person {
     public void setSurname(String surname) {
         this.surname = surname;
     }
-    
 
     public String getJmbg() {
         return jmbg;
@@ -44,12 +43,12 @@ public class Person {
     public void setJmbg(String jmbg) {
         this.jmbg = jmbg;
     }
-    
-    public void showData(){
+
+    public void showData() {
         System.out.println(this.getName());
         System.out.println(this.getSurname());
         System.out.println(this.getJmbg());
-        
+
     }
 
 }

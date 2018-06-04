@@ -1,6 +1,7 @@
 
 import loops.Loops;
 import person.Person;
+import person.Student;
 
 
 public class Main {
@@ -83,7 +84,16 @@ Person osoba = new Person();
 
 osoba.setName("Vladimir");
 osoba.setSurname("Zdravkovic");
+
 osoba.showData();
+
+
+        Student studentPetar = new Student("Petar","Petrovic", "393993939393");
+        
+        studentPetar.showData();
+        
+        Student studentMarko = new Student("Marko", "Markovic", "2348289842", "oas123", 2);
+        studentMarko.showData();
 //        System.out.println(osoba.getName());
 //        System.out.println(osoba.getSurname());
 //        System.out.println(osoba.getJmbg());
